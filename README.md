@@ -7,3 +7,5 @@ Each of the different folders in the main directory corresponds to a programming
 In many of my projects, I have collaborated with and recieved help from my older brother [Jared](https://github.com/jaredly), and I will mention which projects those are, assuming that I can remember (some of these were made a few years ago).
 
 Thank you for taking a look at my portfolio! Enjoy! :)
+
+(In addition to programming, I've done some fun 3D-modeling in Blender. [Here](https://sketchfab.com/shadowfire168) is my sketchfab account, which has several of my best models.)
