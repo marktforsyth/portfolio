@@ -11,7 +11,7 @@ func fetchStore() []storeItem {
 	return []storeItem{
 		{
 			Name:          "Fake Health Potion",
-			Price:         10,
+			Price:         4,
 			Description:   "It pretends to heal you, but it actually doesn't ;).",
 			AlreadyBought: false,
 		},

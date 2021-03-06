@@ -121,5 +121,113 @@ func fetchRooms() []room {
 				"Mud Room",
 			},
 		},
+		{
+			Name:        "Hallway",
+			Description: "It's a dark, dank, dusty, poorly-lit hallway. Torches line the walls, casting strange shadows...",
+			Options: [3]option{
+				{
+					Description: "Grab a torch",
+					Result:      "You use your insane firedancing skills to put on an awesome one-person performance for no one in particular. You then put the torch back on the wall.",
+					AlreadyDone: false,
+				},
+				{
+					Description:     "Investigate the mysterious shadows...",
+					Result:          "Lurking in a strange corner, you find...a treasure chest! --with one Gold Piece in it.",
+					AlreadyDone:     false,
+					ImportantResult: "gain money",
+				},
+				{
+					Description:     "Tap-dance",
+					Result:          "You randomly start tap-dancing. Unfortunately, the poor lighting makes you stumble and sprain your ankle. Lose 10 health.",
+					AlreadyDone:     false,
+					ImportantResult: "lose health",
+				},
+			},
+			AdjacentRooms: [4]string{
+				"Office",
+				"Front Room",
+			},
+		},
+		{
+			Name:        "Front Room",
+			Description: "This is a nice, sunny room with large windows that overlook the front yard. There's a piano in one corner, and a couch against the wall.",
+			Options: [3]option{
+				{
+					Description: "Open the windows",
+					Result:      "The sunshine streams accross your face, and you breathe in the fresh air contentedly.",
+					AlreadyDone: false,
+				},
+				{
+					Description:     "Play the piano",
+					Result:          "You play the piano so well that one of the pieces literally *turns to gold*. Yeah. That's pretty cool --gain 1 GP.",
+					AlreadyDone:     false,
+					ImportantResult: "gain money",
+				},
+				{
+					Description:     "Lounge on the sofa",
+					Result:          "The sofa is so comfy that you take a rejuvinating nap, gaining 10 health!",
+					AlreadyDone:     false,
+					ImportantResult: "gain health",
+				},
+			},
+			AdjacentRooms: [4]string{
+				"Hallway",
+				"Front Yard",
+				"Dining Room",
+			},
+		},
+		{
+			Name:        "Front Yard",
+			Description: "This is a relatively simple front yard with a tidy lawn and a flower garden.",
+			Options: [3]option{
+				{
+					Description:     "Water the flowers",
+					Result:          "You accidentally use radioactive waste to water the flowers, and they come alive and bite you! Lose 10 health.",
+					AlreadyDone:     false,
+					ImportantResult: "lose health",
+				},
+				{
+					Description:     "Do a handstand on the grass",
+					Result:          "Some loose change falls out of your pockets and dissapears. Lose 1 GP.",
+					AlreadyDone:     false,
+					ImportantResult: "lose money",
+				},
+				{
+					Description: "Plant some seeds in the garden",
+					Result:      "You plant the seeds, and, as expected, nothing happens at the moment. Plants take a while to grow.",
+					AlreadyDone: false,
+				},
+			},
+			AdjacentRooms: [4]string{
+				"Front Room",
+			},
+		},
+		{
+			Name:        "Dining Room",
+			Description: "This is a room where people eat food.",
+			Options: [3]option{
+				{
+					Description:     "Water the flowers",
+					Result:          "You accidentally use radioactive waste to water the flowers, and they come alive and bite you! Lose 10 health.",
+					AlreadyDone:     false,
+					ImportantResult: "lose health",
+				},
+				{
+					Description:     "Do a handstand on the grass",
+					Result:          "Some loose change falls out of your pockets and dissapears. Lose 1 GP.",
+					AlreadyDone:     false,
+					ImportantResult: "lose money",
+				},
+				{
+					Description: "Plant some seeds in the garden",
+					Result:      "You plant the seeds, and, as expected, nothing happens at the moment. Plants take a while to grow.",
+					AlreadyDone: false,
+				},
+			},
+			AdjacentRooms: [4]string{
+				"Front Room",
+				"Kitchen",
+			},
+		},
 	}
 }

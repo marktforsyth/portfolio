@@ -21,12 +21,13 @@ func main() {
 
 	mainPlayer := player{
 		Health: 70,
-		CurrentRoom: rooms[1].Name,
+		CurrentRoom: rooms[0].Name,
 		GoldPieces: 0,
 		Inventory: []storeItem{},
 	}
 
-	fmt.Println("\nHello! Welcome to this text adventure.")
+	fmt.Println("\nHello! Welcome to this text adventure. You are in the " + mainPlayer.CurrentRoom)
+	fmt.Println(rooms[indexOfRoom(rooms, mainPlayer.CurrentRoom)].Description)
 	fmt.Println()
 	printInstructions()
 
@@ -190,13 +191,18 @@ func enterRoom(roomName string, rooms []room, editPlayer *player) {
 
 	for _, room := range rooms {
 		if room.Name == roomName {
-			canEnterRoom = true
+			for _, adjacentRoom := range rooms[indexOfRoom(rooms, editPlayer.CurrentRoom)].AdjacentRooms {
+				if room.Name == adjacentRoom {
+					canEnterRoom = true
+				}
+			}
 		}
 	}
 
 	if canEnterRoom {
 		editPlayer.CurrentRoom = roomName
 		fmt.Println("You've entered the " + roomName + "!")
+		fmt.Println(rooms[indexOfRoom(rooms, editPlayer.CurrentRoom)].Description)
 	} else {
 		fmt.Println("Error: '" + roomName + "' is not an adjacent room.")
 	}
@@ -204,7 +210,7 @@ func enterRoom(roomName string, rooms []room, editPlayer *player) {
 
 func buyFromStore(itemName string, store []storeItem, editPlayer *player) {
 	itemIsInStore := false
-	itemIndex := -1
+	var itemIndex int
 
 	for i, storeItem := range store {
 		if storeItem.Name == itemName {
