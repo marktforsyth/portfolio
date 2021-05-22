@@ -1,1 +1,0 @@
-C:\Users\Maria\Documents\Programming\portfolio\Rust\MacroQuad\drawing-app\target\debug\drawing-app.exe: C:\Users\Maria\Documents\Programming\portfolio\Rust\MacroQuad\drawing-app\src\main.rs C:\Users\Maria\Documents\Programming\portfolio\Rust\MacroQuad\drawing-app\src\user_interface.rs
