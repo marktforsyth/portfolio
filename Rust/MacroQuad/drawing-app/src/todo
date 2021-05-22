@@ -1,0 +1,3 @@
+- configure buttons so that clicking and dragging won't let you click multiple in succession
+- configure undo/redo (highest priority)
+- [maybe impossible] figure out why it isn't working with touchscreen?

@@ -1,0 +1,11 @@
+C:\Users\Maria\Documents\Programming\portfolio\Rust\MacroQuad\drawing-app\target\debug\deps\approx-15f51e40f9afba25.rmeta: C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\lib.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\abs_diff_eq.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\relative_eq.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\ulps_eq.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\macros.rs
+
+C:\Users\Maria\Documents\Programming\portfolio\Rust\MacroQuad\drawing-app\target\debug\deps\libapprox-15f51e40f9afba25.rlib: C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\lib.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\abs_diff_eq.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\relative_eq.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\ulps_eq.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\macros.rs
+
+C:\Users\Maria\Documents\Programming\portfolio\Rust\MacroQuad\drawing-app\target\debug\deps\approx-15f51e40f9afba25.d: C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\lib.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\abs_diff_eq.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\relative_eq.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\ulps_eq.rs C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\macros.rs
+
+C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\lib.rs:
+C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\abs_diff_eq.rs:
+C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\relative_eq.rs:
+C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\ulps_eq.rs:
+C:\Users\Maria\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.3.2\src\macros.rs:
