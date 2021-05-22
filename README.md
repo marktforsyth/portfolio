@@ -8,4 +8,4 @@ In many of my projects, I have collaborated with and recieved help from my older
 
 Thank you for taking a look at my portfolio! Enjoy! :)
 
-(In addition to programming, I've done some fun 3D-modeling in Blender. [Here](https://sketchfab.com/shadowfire168) is my sketchfab account, which has several of my best models.)
+(In addition to programming, I've done some fun 3D-modeling in Blender. [Here](https://sketchfab.com/marktforsyth) is my sketchfab account, which has several of my best models.)
