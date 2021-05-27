@@ -7,3 +7,4 @@ Links to external repos in HTML, CSS & JavaScript:
 - [DungeonCrawlerWeb](https://github.com/marktforsyth/DungeonCrawlerWeb)
 - [TicTacToeWeb](https://github.com/marktforsyth/TicTacToeWeb)
 - [story-squares](https://glitch.com/edit/#!/storysquares) (I like this one a lot --also, it's hosted on glitch not github)
+- [AutoGenArt](https://github.com/marktforsyth/AutoGenArt)
