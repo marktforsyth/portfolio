@@ -7,3 +7,4 @@ Links to external repos in Python3:
 - [Board-Game-w-Character](https://github.com/marktforsyth/Board-Game-w-Character)
 - [Text Adventure](https://github.com/marktforsyth/TextAdventure)
 - [TicTacToe](https://github.com/marktforsyth/TicTacToe)
+- [FunMathPy](https://replit.com/@marktforsyth/FunMathPy)
